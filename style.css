@@ -1,0 +1,101 @@
+/*global variables*/
+
+body{
+ margin: 0;
+ padding: 0;
+ background: #000;
+}
+
+
+#navigation{
+	 float: left;
+	 display: inline-block;
+	 vertical-align:  center;
+}
+
+#logo{
+	float: left;
+	
+}
+
+h1{
+	
+	color: #fff;
+	font-family: 'Roboto ', serif;
+	font-size:2.5em;
+	padding: 0;
+
+}
+
+
+.container{
+	width: 60%;
+	padding-top:20px;
+	margin: auto;
+	overflow :hidden;
+	align-items: center
+
+}
+
+
+ul{
+	float:right;
+	list-style: none;
+}
+
+#TEAR-2{
+	background: yellow;
+}
+
+#display{
+	float: left; 
+	display: inline-flex;
+
+}
+
+
+#card{
+	background:#fff;
+	border-style: solid;
+	border-size:0.75px; 
+	border-color: black;
+	border-radius: 20px;
+	width: 20%;
+	height: auto;
+	padding: 30px;
+
+}
+
+
+.content{
+	padding: 10%;
+	align-content: center;
+}
+
+#card h1{
+	color: #000;
+	font-family: 'Roboto ', serif;
+	font-size:1.5em;
+	padding: 0;
+}
+
+#avatar{
+	border-radius: 50%;
+
+}
+
+
+
+/*global buttons*/
+
+
+
+
+
+
+
+/*global fonts*/
+
+
+
+
