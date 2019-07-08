@@ -1,21 +1,23 @@
+
+
 body{
-	background: #708090;
+	background: #397F97 ;
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
 h1{
 	color: #000;
-	font-size: 2em;
+	font-size: 13px;
 	text-align:center;  
 	margin: 0; 
 }
 
 h2{
 	color: #000;
-	font-size: 1em;
     text-align:left;
     margin:0;
+    font-size: 13px;
 	
 }
 
@@ -25,7 +27,43 @@ p{
 	text-align: left;	
 }
 
+div .nav{
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: white;
+  	padding: 50px;
 
+}
+
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+#navbar{
+	background-color: white;
+	width: 100%;
+	height: 100px;
+
+}
+html {
+  scroll-behavior: smooth;
+}
 
 .container{
 	width: 80%;
@@ -33,35 +71,44 @@ p{
 	margin: auto;
 	overflow :hidden;
 	background: #fff;
-
 }
+
+
+
 .tow{
 	display: -ms-flex;
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
+	
 
 	}
 
 .card{
 	background-color: #fff ;
 	width: 98%;
+	border-radius: 8px;
+	margin-left: 10px;
+
 	
 	
 }
 
 .active, .card:hover {
 	background-color:#f1f1f1;
-	width: 100%;
-	margin: 0;
+	width: 98%;
+	
+	margin-left: 10px;
 	
 	
 }
 
 .Big h2{
     color: #000;
-	font-size: 1em;
+	font-size: 13px;
+	font-style: bold;
     text-align:left;
+
 }
 
 .Big p{
@@ -84,7 +131,7 @@ p{
 }
 
 #pic img{
-	border-radius: 8px;
+	border-radius: 20px;
 	margin-top: 5px;
 }
 display: inline-flex;
@@ -99,12 +146,12 @@ display: inline-flex;
 .accordion {
   border: none;
   color: white;
-  padding: 15px 13px;
+  padding: 8px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  transition: 0.4s;
+  font-size: 12px;
+  
 }
 
 .active, .accordion:hover {
@@ -112,7 +159,7 @@ display: inline-flex;
 }
 
 .panel {
-  padding: 0 18px;
+  padding:  6px 20px;;
   display: none;
   background-color: white;
   overflow: hidden;
@@ -127,7 +174,6 @@ display: inline-flex;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   margin-bottom: 40px;
 }
@@ -157,7 +203,7 @@ h1{
 
 h2{
 	color: #000;
-	font-size: 18px;
+	font-size: 13px;
     text-align:left;
     margin:0;
     margin-top: 8px;
@@ -192,12 +238,15 @@ p{
 .card > div{
 	
 	width: 100%;
+	margin-left: 10px;
+
 	
 }
 
 .active, .card:hover {
 	background-color:#f1f1f1;
 	margin: 0;
+	margin-left: 10px;
 	
 	
 	
@@ -223,17 +272,15 @@ p{
 	margin: 15px;
 }
 .accordion {
-  border-radius:4px;
   
   border: none;
-  color: #000;
+  color: #f15a24;
   padding: 8px 8px;
   text-align: left;
-  margin-right: 20px;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  transition: 0.4s;
+ 
 }
 
 .active, .accordion:hover {
@@ -242,7 +289,7 @@ p{
 }
 
 .panel {
-  padding: 8 8px;
+  padding: 6px 20px;
   display: none;
   background-color: white;
   overflow: hidden;
