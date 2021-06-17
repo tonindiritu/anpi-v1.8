@@ -1,21 +1,30 @@
+
+
 body{
-	background: #708090;
+	background: #fff ;
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+
+li{
+	float:left;
+	list-style-type: none;
+	padding-left:6%;
+	vertical-align: center;
+}
+
+
+
 h1{
-	color: #000;
-	font-size: 2em;
-	text-align:center;  
-	margin: 0; 
+	
 }
 
 h2{
 	color: #000;
-	font-size: 1em;
     text-align:left;
     margin:0;
+    font-size: 13px;
 	
 }
 
@@ -25,43 +34,108 @@ p{
 	text-align: left;	
 }
 
+div .nav{
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: white;
+  	padding: 60px;
 
-
+}
 .container{
 	width: 80%;
 	padding-top:20px;
 	margin: auto;
 	overflow :hidden;
 	background: #fff;
+}
+
+#one .intro h1{
+    color: #000;
+	font-size: 2.5em;
+	text-align:center;  
+	margin: 0; 
+	padding-bottom: 40px;
+}
+
+.header {
+  
+  background: #555;
+  color: #f1f1f1;
+}
+
+..container {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 60%;
+}
+
+.sticky + .container {
+  padding-top: 80px;
 
 }
+#navbar{
+	background-color: black;
+	width: 100%;
+	height: 80px;
+}
+
+#navbar.nav-bar-content{
+	margin: 3%;
+	height: auto;
+	
+}
+
+#click{margin-top: 30px;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+}
+
+
+
 .tow{
 	display: -ms-flex;
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
+	
 
 	}
 
 .card{
 	background-color: #fff ;
 	width: 98%;
+	border-radius: 8px;
+	margin-left: 10px;
+
 	
 	
 }
 
 .active, .card:hover {
 	background-color:#f1f1f1;
-	width: 100%;
-	margin: 0;
+	width: 98%;
+	
+	margin-left: 10px;
 	
 	
 }
 
 .Big h2{
     color: #000;
-	font-size: 1em;
+	font-size: 13px;
+	font-style: bold;
     text-align:left;
+
 }
 
 .Big p{
@@ -84,7 +158,7 @@ p{
 }
 
 #pic img{
-	border-radius: 8px;
+	border-radius: 20px;
 	margin-top: 5px;
 }
 display: inline-flex;
@@ -99,12 +173,12 @@ display: inline-flex;
 .accordion {
   border: none;
   color: white;
-  padding: 15px 13px;
+  padding: 8px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  transition: 0.4s;
+  font-size: 12px;
+  
 }
 
 .active, .accordion:hover {
@@ -112,7 +186,7 @@ display: inline-flex;
 }
 
 .panel {
-  padding: 0 18px;
+  padding:  6px 20px;;
   display: none;
   background-color: white;
   overflow: hidden;
@@ -127,13 +201,16 @@ display: inline-flex;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   margin-bottom: 40px;
 }
 
+#two{
+	background: grey;
+}
 
 
+}
 
 
 
@@ -157,7 +234,7 @@ h1{
 
 h2{
 	color: #000;
-	font-size: 18px;
+	font-size: 13px;
     text-align:left;
     margin:0;
     margin-top: 8px;
@@ -192,12 +269,15 @@ p{
 .card > div{
 	
 	width: 100%;
+	margin-left: 10px;
+
 	
 }
 
 .active, .card:hover {
 	background-color:#f1f1f1;
 	margin: 0;
+	margin-left: 10px;
 	
 	
 	
@@ -223,17 +303,15 @@ p{
 	margin: 15px;
 }
 .accordion {
-  border-radius:4px;
   
   border: none;
-  color: #000;
+  color: #f15a24;
   padding: 8px 8px;
   text-align: left;
-  margin-right: 20px;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  transition: 0.4s;
+ 
 }
 
 .active, .accordion:hover {
@@ -242,7 +320,7 @@ p{
 }
 
 .panel {
-  padding: 8 8px;
+  padding: 6px 20px;
   display: none;
   background-color: white;
   overflow: hidden;
